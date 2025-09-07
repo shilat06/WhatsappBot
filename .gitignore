@@ -1,0 +1,9 @@
+# Ignore output and logs
+node_modules/
+wwebjs_cache/
+output.txt
+*.log
+data.json
+session/
+temp/
+.wwebjs_cache/2.3000.1026813699.html
