@@ -37,11 +37,6 @@
             fs.writeFileSync('keywords.json', JSON.stringify(keywords, null, 2));
         }
 
-        client.on('qr', (qr) => {
-            console.log('📷 סרקי את ה-QR:');
-            qrcode.generate(qr, { small: true });
-        });
-
         client.on('ready', () => {
             console.log('✅ הבוט מחובר לוואטסאפ!');
         });
