@@ -2,6 +2,7 @@
 node_modules/
 wwebjs_cache/
 output.txt
+.wwebjs_auth/
 *.log
 data.json
 session/
