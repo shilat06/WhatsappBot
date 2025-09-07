@@ -3,7 +3,7 @@
         console.log("🚀 מתחילים את הבוט...");
 
         const { Client, LocalAuth } = require('whatsapp-web.js');
-        const qrcode = require('qrcode-terminal');
+        const qrcode = require('qrcode');
         const fs = require('fs');
 
         let keywords = loadKeywords();
