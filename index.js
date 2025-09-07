@@ -16,21 +16,16 @@
             }
         });
 
-        client.on('qr', qr => {
-            console.log('🔄 מקבל QR...');
+        client.on('qr', async (qr) => {
+            console.log('🔄 קיבלתי קוד QR...');
 
-            // שמור את ה־QR כקובץ תמונה
-            qrcode.toFile('./qr.png', qr, {
-                color: {
-                    dark: '#000000',
-                    light: '#ffffff'
-                }
-            }, function (err) {
-                if (err) throw err;
-                console.log('✅ נשמר QR לקובץ qr.png');
-            });
+            // צור קישור לתמונה של ה־QR
+            const qrImageUrl = await qrcode.toDataURL(qr);
+
+            console.log('\n🔗 פתחי את הקישור הזה בדפדפן לסריקה:\n');
+            console.log(qrImageUrl);
         });
-
+        
         function loadKeywords() {
             if (fs.existsSync('keywords.json')) {
                 return JSON.parse(fs.readFileSync('keywords.json'));
