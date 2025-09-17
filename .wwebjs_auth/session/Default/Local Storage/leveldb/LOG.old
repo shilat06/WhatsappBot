@@ -1,0 +1,9 @@
+2025/09/07-23:24:06.872 6604 Creating DB C:\Users\jucc2\Documents\WhatsappBot\.wwebjs_auth\session\Default\Local Storage\leveldb since it was missing.
+2025/09/07-23:24:06.899 6604 Reusing MANIFEST C:\Users\jucc2\Documents\WhatsappBot\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2025/09/07-23:24:06.900 6604 Recovering log #7
+2025/09/07-23:24:06.902 6604 Reusing old log C:\Users\jucc2\Documents\WhatsappBot\.wwebjs_auth\session\Default\Local Storage\leveldb/000007.log 
+2025/09/07-23:24:06.902 6604 Delete type=2 #5
+2025/09/07-23:24:06.902 6604 Delete type=2 #8
+2025/09/08-00:06:10.306 6604 Level-0 table #9: started
+2025/09/08-00:06:10.315 6604 Level-0 table #9: 15296 bytes OK
+2025/09/08-00:06:10.317 6604 Delete type=0 #7
